@@ -1,0 +1,9 @@
+1. (optional) Download and install Java 
+2. Add Java bin to path
+3. Download Nifi: http://httpd-mirror.sergal.org/apache/nifi/1.8.0/nifi-1.8.0-bin.tar.gz
+4. untar nifi to /etc 
+5. modify /etc/nifi-1.8.0/conf/nifi.properties, set the available port for nifi
+6. start nifi: /etc/nifi-1.8.0/bin/nifi.sh start
+
+Nifi will be started on the selected port
+7. open Nifi: <host>:<port> in browser
